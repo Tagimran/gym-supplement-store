@@ -1,0 +1,43 @@
+.dropbtn {
+    background-color: white; /* White background for button */
+    color: black; /* Black text color */
+    padding: 25px;
+    font-size: 25px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: white; /* White background for dropdown container */
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white; /* White background for dropdown content */
+    color: black; /* Black text color */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black; /* Black text color for links */
+    padding: 12px 16px;
+    background-color: white; /* White background for links */
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1; /* Light grey background on hover */
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block; /* Show dropdown content on hover */
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: white; /* Keep the button background white on hover */
+  }
