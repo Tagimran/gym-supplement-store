@@ -1,0 +1,38 @@
+.custom-product-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.custom-product {
+    position: relative;
+    width: 320px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-product img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.custom-product-info {
+    padding: 10px;
+    text-align: center;
+}
+
+.custom-product-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.custom-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+
